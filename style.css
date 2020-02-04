@@ -1,0 +1,93 @@
+nav p {
+  text-align: right;
+}
+
+a {
+  padding-right: 0.5em;
+  text-decoration: none;
+}
+
+main {
+  width: 70%;
+  margin: auto;
+  margin-top: 10em;
+}
+
+main h1 {
+  font-size: 8em;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.25em;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+}
+
+p input {
+  line-height: 1.15;
+  width: 30em;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid #d4dada;
+  padding: 6px 10px;
+  font: 400 13.3333px Arial;
+  font-size: 100%;
+}
+
+p input:focus {
+  outline: none;
+  border-color: #07682c;
+  height: 30px;
+}
+
+
+.search-links {
+  text-align: center;
+}
+
+
+h1 #P:hover, h1 #N:hover {
+  color: rgb(152, 195, 121);
+}
+
+h1 #i:hover, h1 #e2:hover {
+  color: rgb(86, 182, 194);
+}
+
+h1 #p:hover, h1 #t:hover {
+  color: rgb(198, 173, 0);
+}
+
+h1 #e:hover {
+  color: rgb(180, 0, 185);
+}
+
+h1 #r:hover {
+  color: rgb(198, 45, 72);
+}
+
+.search-button {
+  font-family: Camphor, Open Sans, Segoe UI, sans-serif;
+  color: #7795f8;
+  white-space: nowrap;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 14px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 
+              0 1px 3px rgba(0,0,0,.08);
+  background: #fff;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .025em;
+  text-decoration: none;
+}
+
+nav p a.search-button {
+  color: white;
+  background-color: #7795f8;
+}
